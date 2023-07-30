@@ -1,6 +1,6 @@
 from config.config_load import config
 from object_model.models import LoginModel
-from utils.loader import load_yaml_file
+from utils.tools import load_yaml_file
 
 # 对象库
 
