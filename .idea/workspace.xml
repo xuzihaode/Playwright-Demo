@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdde1355-66f5-4d39-91e9-01fddb9964df" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/models/page_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/page_object.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/产品首页模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/产品首页模块.py" afterDir="false" />
-    </list>
+    <list default="true" id="fdde1355-66f5-4d39-91e9-01fddb9964df" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +51,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.toDoOptions",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -190,7 +187,7 @@
       <workItem from="1689670111678" duration="5971000" />
       <workItem from="1689843560367" duration="20891000" />
       <workItem from="1690449614283" duration="10716000" />
-      <workItem from="1690767857595" duration="10202000" />
+      <workItem from="1690767857595" duration="10497000" />
     </task>
     <servers />
   </component>
