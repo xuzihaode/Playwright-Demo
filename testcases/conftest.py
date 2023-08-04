@@ -32,6 +32,8 @@ from playwright.sync_api import (
 from slugify import slugify
 import tempfile
 
+from models.产品首页模块 import 产品首页
+
 # 用于将项目根目录添加到 sys.path 中，这样就可以在测试用例中导入项目中的模块了
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
@@ -72,3 +74,14 @@ def context(browser):
     yield context
     # 在 fixture 结束时关闭浏览器上下文
     context.close()
+
+
+class 页面实例化:
+    def __init__(self, page: Page):
+        self.产品首页 = 产品首页(page)
+
+
+@pytest.fixture()
+def pw_page(context):
+    page = context.new_page()
+    yield 页面实例化(page)
