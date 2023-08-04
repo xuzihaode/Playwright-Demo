@@ -1,9 +1,0 @@
-# 每个模块对应一个yml文件
-# 每个模块下可以有多个页面
-
-loginPage:
-  username: "input[pla=\'账号\']"
-
-
-loginPage22:
-  username22: "input[pla=\'账号\']"

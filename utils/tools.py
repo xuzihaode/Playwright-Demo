@@ -1,17 +1,5 @@
 from typing import Text, Dict
-import yaml, os
-
-
-# yaml文件转换为Dict字典 的方法
-def load_yaml_file(yaml_file: Text) -> Dict:
-    """
-    yaml文件转换为Dict字典 的方法
-    :param yaml_file: yaml文件路径
-    :return: 返回Dict字典
-    """
-    with open(yaml_file, mode='rb') as f:
-        yaml_content = yaml.load(f, Loader=yaml.FullLoader)
-        return yaml_content
+import os
 
 
 def get_path(path: Text) -> Text:
